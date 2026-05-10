@@ -19,8 +19,8 @@ export default function ContactPage() {
           </div>
           <div className="space-y-4 text-slate-100">
             <p>Phone: <a href="tel:+919766015053" className="font-semibold text-white">+91 97660 15053</a></p>
-            <p>Email: <a href="mailto:info@ecoccomfort23.com" className="font-semibold text-white">info@ecocomfort23.com</a></p>
-            <p>Address: 42 Green Valley, Baner, Pune, Maharashtra</p>
+            <p>Email: <a href="mailto:sells@ecocomfort23.com" className="font-semibold text-white">sells@ecocomfort23.com</a></p>
+            <p>Address: 27 Ground Floor, Shitole Complex, Old Sangavi, Pimpri Chinchwad, Pune, Maharashtra, Pin-411027</p>
           </div>
           <div className="rounded-3xl bg-white/10 p-6">
             <p className="font-medium text-white">Service hours</p>

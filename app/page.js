@@ -97,6 +97,38 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-7xl px-6 py-24 sm:px-10 lg:px-12">
+        <div className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+          <div className="space-y-6">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-sky-600">Live HVAC insights</p>
+            <h2 className="text-4xl font-semibold tracking-tight text-slate-900">Realtime monitoring and motion-aware system visuals</h2>
+            <p className="max-w-2xl text-lg leading-8 text-slate-600">
+              Our HVAC projects include live performance tracking, motion-infused system animations, and responsive telemetry so you can see how the system behaves in real time.
+            </p>
+            <div className="grid gap-4 sm:grid-cols-2">
+              <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+                <p className="text-sm font-semibold uppercase tracking-[0.3em] text-sky-600">Realtime dashboards</p>
+                <p className="mt-4 text-slate-600">Visualize temperature, airflow, and equipment status continuously for smarter decisions.</p>
+              </div>
+              <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+                <p className="text-sm font-semibold uppercase tracking-[0.3em] text-sky-600">Motion system flow</p>
+                <p className="mt-4 text-slate-600">Dynamic motion visuals show how cooling systems, vents, and controls move air throughout your space.</p>
+              </div>
+            </div>
+          </div>
+          <div className="grid gap-6 sm:grid-cols-2">
+            <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-50 p-4 shadow-sm">
+              <Image src="/realtime-monitor.svg" alt="Realtime HVAC monitoring dashboard" width={580} height={420} className="w-full rounded-3xl object-cover" />
+              <div className="pointer-events-none absolute -right-10 -top-10 h-24 w-24 animate-pulse rounded-full bg-sky-500/20 blur-3xl"></div>
+            </div>
+            <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-50 p-4 shadow-sm">
+              <Image src="/motion-system.svg" alt="HVAC system motion illustration" width={580} height={420} className="w-full rounded-3xl object-cover" />
+              <div className="pointer-events-none absolute -left-8 -bottom-8 h-24 w-24 animate-pulse rounded-full bg-cyan-500/20 blur-3xl"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-slate-950 text-white">
         <div className="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-12">
           <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
