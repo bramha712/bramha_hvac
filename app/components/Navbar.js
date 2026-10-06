@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Navbar() {
@@ -5,12 +6,14 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/90 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 sm:px-10 lg:px-12">
         <div className="flex items-center gap-3">
-          <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-sky-600 text-xl font-semibold text-white shadow-lg shadow-sky-500/20">
-            E
-          </span>
-          <div>
-            <p className="text-sm font-semibold text-slate-900">Eco-Comfort23</p>
-            <p className="text-xs text-slate-500">Pune HVAC solutions</p>
+          <div className="flex h-16 w-32 items-center justify-center overflow-hidden rounded-2xl border-2 border-sky-200 bg-white shadow-md shadow-sky-100/80 ring-2 ring-sky-100">
+            <Image
+              src="/ecocomfort%20logo.png"
+              alt="EcoComfort23 logo"
+              width={220}
+              height={110}
+              className="h-full w-full object-contain p-1.5"
+            />
           </div>
         </div>
 
@@ -23,9 +26,16 @@ export default function Navbar() {
 
         <Link
           href="/contact"
-          className="inline-flex rounded-full bg-sky-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-sky-700"
+          className="inline-flex h-16 w-32 items-center justify-center rounded-2xl border-2 border-sky-200 bg-sky-50 p-1.5 shadow-sm transition hover:shadow-md"
+          aria-label="Blue Star authorized dealer"
         >
-          Request Quote
+          <Image
+            src="/Blue_Star_Logo.png"
+            alt="Blue Star logo"
+            width={220}
+            height={110}
+            className="h-full w-full object-contain"
+          />
         </Link>
       </nav>
     </header>
