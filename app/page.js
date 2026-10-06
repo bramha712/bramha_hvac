@@ -228,7 +228,7 @@ export default function Home() {
                   <p className="mt-2 text-slate-300">Satisfied customers across Pune.</p>
                 </div>
                 <div className="rounded-3xl bg-white/10 p-6">
-                  <p className="text-3xl font-semibold">8</p>
+                  <p className="text-3xl font-semibold">10</p>
                   <p className="mt-2 text-slate-300">Years of local HVAC experience.</p>
                 </div>
               </div>
@@ -275,7 +275,7 @@ export default function Home() {
                 </div>
                 <div className="rounded-3xl border border-slate-200 bg-slate-50 p-5">
                   <p className="font-semibold text-slate-900">Email</p>
-                  <p className="text-slate-600">info@ecocomfort23.com</p>
+                  <p className="text-slate-600">project@ecocomfort23.com</p>
                 </div>
               </div>
             </div>
